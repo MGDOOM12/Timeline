@@ -1,10 +1,39 @@
 .flex-container{
     display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: row;
+    height: 70vh;
+    width: 100%;
+}
+
+.flex-container-column{
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 70vh;
 }
 
-.flex-item{
- 
+.flex-item1{
+ flex-grow: 2;
+}
+
+.flex-item2{
+    
+}
+
+#login-screen-img{
+    height: 100vh;
+}
+
+#login-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-placement{
+    display: flex;
+    flex-direction: row;
 }
